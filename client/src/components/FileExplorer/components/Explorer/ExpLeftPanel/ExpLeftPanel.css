@@ -1,0 +1,131 @@
+#menu-context {
+  z-index: 1000 !important;
+}
+
+.metismenu-container.visible {
+  padding: 0px;
+}
+
+.metismenu-container ul ul ul li {
+  padding-left: 1em;
+}
+
+.metismenu-container ul ul ul ul li {
+  padding-left: 1.5em;
+}
+
+.metismenu-container ul ul ul ul ul li {
+  padding-left: 2em;
+}
+
+.metismenu-container ul ul ul ul ul ul li {
+  padding-left: 2.5em;
+}
+
+.metismenu-container ul ul ul ul ul ul ul li {
+  padding-left: 3em;
+}
+
+.metismenu-container ul ul ul ul ul ul ul ul li {
+  padding-left: 3.5em;
+}
+
+.metismenu-container ul ul ul ul ul ul ul ul ul li {
+  padding-left: 4em;
+}
+
+.metismenu-container ul ul ul ul ul ul ul ul ul ul li {
+  padding-left: 4.5em;
+}
+
+/* .left-panel-subgrid {
+  grid-area: leftpanel;
+  height: calc(100vh - 0px); */
+/* overflow-y: scroll; */
+
+/* width: calc(40vh - 45px); */
+/* overflow-x: scroll; */
+/* overflow: scroll; */
+/* } */
+
+.metismenu-icon {
+  color: black;
+  /* opacity: 0.3; */
+}
+
+/* ::-webkit-scrollbar {
+    height: 10px;
+    width: 8px;
+    opacity: 0.3;
+} */
+
+/* ::-webkit-scrollbar-track {
+  background-color: rgb(221, 221, 221) !important;
+  border: 0px !important;
+  border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(175, 173, 173) !important;
+  border: 0px !important;
+  border-radius: 5px !important;
+} */
+
+/* Metis Menu Custom */
+.metis_custom {
+  background: white !important;
+  overflow: hidden !important;
+  position: relative !important;
+  font-family: inherit !important;
+  font-weight: 300 !important;
+
+  /*height: calc(100vh - 45px); */
+}
+
+.metis_custom::after {
+  box-shadow: none !important;
+}
+
+.metis_custom_ul,
+.metis_custom_ul_visible {
+  box-shadow: none !important;
+}
+
+.metis_custom_a_link {
+  text-shadow: none !important;
+  color: #868686 !important;
+}
+
+.metis_custom_a_link:active {
+  color: #868686 !important;
+  text-decoration: none !important;
+  background-color: #d3d3d3 !important;
+}
+
+.metis_custom_a_link:hover {
+  color: #868686 !important;
+  text-decoration: none !important;
+  background-color: #d3d3d3 !important;
+}
+
+.metis_custom_a_link:focus {
+  text-decoration: none !important;
+  color: #868686 !important;
+  background-color: #d3d3d3 !important;
+}
+
+.metis_custom_a_link_active {
+  background: #d3d3d3 !important;
+}
+
+.metis_custom_a_link_hasActive {
+  color: #868686 !important;
+}
+
+.preventOverflow {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 20ch;
+  overflow-x: hidden;
+}
