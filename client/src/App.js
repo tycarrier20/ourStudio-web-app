@@ -3,6 +3,7 @@ import FileUpload from './components/FileUpload';
 import Navbar from './components/Navbar';
 import About from './about';
 import Profile from './profile';
+import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
